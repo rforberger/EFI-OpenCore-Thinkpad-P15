@@ -81,31 +81,6 @@
 				</dict>
 			</dict>
 		</dict>
-		<key>_SB.PCI0.RP01.PXSX.TBDU.XHC</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.dhinakg.USBToolBox.kext</string>
-			<key>IOClass</key>
-			<string>USBToolBox</string>
-			<key>IOMatchCategory</key>
-			<string>USBToolBox</string>
-			<key>IOPropertyMatch</key>
-			<dict>
-				<key>pcidebug</key>
-				<string>8:0:0</string>
-			</dict>
-			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
-			<key>IOProviderMergeProperties</key>
-			<dict>
-				<key>port-count</key>
-				<data>
-				AAAAAA==
-				</data>
-				<key>ports</key>
-				<dict/>
-			</dict>
-		</dict>
 		<key>_SB.PCI0.XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -125,7 +100,7 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				EQAAAA==
+				FgAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -141,10 +116,10 @@
 					<key>HS02</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
-						CAAAAA==
+						BgAAAA==
 						</data>
 					</dict>
 					<key>HS03</key>
@@ -153,7 +128,7 @@
 						<integer>255</integer>
 						<key>port</key>
 						<data>
-						CQAAAA==
+						CAAAAA==
 						</data>
 					</dict>
 					<key>HS04</key>
@@ -162,10 +137,19 @@
 						<integer>255</integer>
 						<key>port</key>
 						<data>
-						CwAAAA==
+						CQAAAA==
 						</data>
 					</dict>
 					<key>HS05</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						CwAAAA==
+						</data>
+					</dict>
+					<key>HS06</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
@@ -181,6 +165,15 @@
 						<key>port</key>
 						<data>
 						EQAAAA==
+						</data>
+					</dict>
+					<key>SS02</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						FgAAAA==
 						</data>
 					</dict>
 				</dict>
