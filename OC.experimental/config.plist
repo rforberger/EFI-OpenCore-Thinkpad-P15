@@ -50,7 +50,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-DGPU.aml</string>
 			</dict>
@@ -985,40 +985,10 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>PqUACQ==</data>
-				<key>device-id</key>
-				<data>mz6Ahg==</data>
-                                <key>AAPL,slot-name</key>
-                                <string>Internal@0,2,0</string>
-                                <key>AAPL,GfxYTile</key>
-                                <data>
-                                AQAAAA==
-                                </data>
-                                <key>enable-hdmi-dividers-fix</key>
-                                <data>
-                                AQAAAA==
-                                </data>
-				<key>dpcd-max-link-rate</key>
-				<data>FAAAAA==</data>
-				<key>enable-dpcd-max-link-rate-fix</key>
-				<data>AQAAAA==</data>
-				<key>enable-lspcon-support</key>
-				<data>AQAAAA==</data>
 				<key>enable-max-pixel-clock-override</key>
 				<data>AQAAAA==</data>
-                                <key>enable-hdmi20</key>
-                                <data>
-                                AQAAAA==
-                                </data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con0-enable</key>
@@ -1033,8 +1003,24 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-preferred-lspcon-mode</key>
 				<data>AAAAAA==</data>
-                                <key>hda-gfx</key>
-                                <string>onboard-1</string>
+				<key>AAPL,GfxYTile</key>
+				<data>AQAAAA==</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>BQCmPg==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device-id</key>
+				<data>xJsAAA==</data>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
+				<key>enable-lspcon-support</key>
+				<data>AQAAAA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel CometLake-H GT2 [UHD Graphics]</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -2095,7 +2081,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 -wegdbg -liludbg</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=11 -wegnoegpu</string>
 				<key>csr-active-config</key>
 				<data>/wcAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -2132,23 +2118,23 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02915303GUN9PRJC</string>
+			<string>C02GHPZ6MD6T</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>fmzNHI2n</data>
+			<data>aK4gbPfx</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro16,3</string>
+			<string>MacBookPro16,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C02YK09BMD6N</string>
+			<string>C02140101CD0000UE</string>
 			<key>SystemUUID</key>
-			<string>4451A4E1-3C1B-411C-9860-8D4E2A39F660</string>
+			<string>95703B3E-552C-4E4B-88ED-84D5C52A8E09</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
