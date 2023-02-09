@@ -2101,7 +2101,7 @@
 				<key>boot-args</key>
 				<string>-v keepsyms=1 -wegdbg -liludbg</string>
 				<key>csr-active-config</key>
-				<data>/wcAAA==</data>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>run-efi-updater</key>
