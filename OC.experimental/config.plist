@@ -986,59 +986,55 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-			        pT4ACQ==	
-				</data>
+				<data>BQClPg==</data>
 				<key>device-id</key>
 				<data>xJsAAA==</data>
-                                <key>AAPL,slot-name</key>
-                                <string>Internal@0,2,0</string>
-                                <key>AAPL,GfxYTile</key>
-                                <data>
-                                AQAAAA==
-                                </data>
-                                <key>enable-hdmi-dividers-fix</key>
-                                <data>
-                                AQAAAA==
-                                </data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>AAPL,GfxYTile</key>
+				<data>AQAAAA==</data>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>AQAAAA==</data>
 				<key>dpcd-max-link-rate</key>
 				<data>FAAAAA==</data>
 				<key>enable-dpcd-max-link-rate-fix</key>
+				<data>AQAAAA==</data>
+				<key>AAPL00,override-no-connect</key>
+				<data>AP///////wANrnycAAAAACocAQS1IhNgAm+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBNjaAoHA4IEBQNmgAWMEQAAAYNjaAoHA4IEBQNmgAWMEQAAAYAAAA/gBDTU4KICAgICAgICAgAAAA/gBOMTU2SENFLUdOMQogAU8CAw8A4wWAAOYGBQFqaiQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFQ1OUNRNzY4QUowOAAAAAAAAAAAAAAAAAAAAAAArA==</data>
+				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
 				<key>enable-lspcon-support</key>
 				<data>AQAAAA==</data>
 				<key>enable-max-pixel-clock-override</key>
 				<data>AQAAAA==</data>
-                                <key>enable-hdmi20</key>
-                                <data>
-                                AQAAAA==
-                                </data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
 				<key>framebuffer-con0-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con0-has-lspcon</key>
+				<key>framebuffer-con0-alldata</key>
+				<data>AAASACAAAACYAAAA</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>AQUSAAAIAADHAQAA</data>
+				<key>framebuffer-con2-alldata</key>
+				<data>AgQSAAAEAADHAQAA</data>
+				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con0-preferred-lspcon-mode</key>
+				<key>framebuffer-con1-has-lspcon</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-preferred-lspcon-mode</key>
 				<data>AAAAAA==</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
-				</data>
 				<key>framebuffer-con2-has-lspcon</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-preferred-lspcon-mode</key>
 				<data>AAAAAA==</data>
-                                <key>hda-gfx</key>
-                                <string>onboard-1</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel CometLake-H GT2 [UHD Graphics]</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1977,7 +1973,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -2099,7 +2095,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 -wegdbg -liludbg -igfxonln=1</string>
+				<string>-v keepsyms=1 alcid=11 -igfxonln=1 -wegnoegpu</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
